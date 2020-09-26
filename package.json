@@ -1,0 +1,28 @@
+{
+  "name": "lyx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyx199504/vuepress-blog.git"
+  },
+  "author": "夜光",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyx199504/vuepress-blog/issues"
+  },
+  "homepage": "https://github.com/lyx199504/vuepress-blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.6.0",
+    "vuepress-theme-reco": "^1.5.7"
+  }
+}
