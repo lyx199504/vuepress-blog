@@ -62,6 +62,13 @@ module.exports = {
         lastUpdated: 'Last Updated',
         // 项目开始时间
         startYear: '2020',
+
+        valineConfig: {
+            appId: 'iHU7d8EHJ3f9k3DqoC7Ch0t4-gzGzoHsz',// your appId
+            appKey: 'ovDmM7AHcBYCERsAVQeFCDpi', // your appKey
+            placeholder: '来发评论吧~',
+            avatar: 'wavatar',
+        },
     },
 
     markdown: {
