@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/lyx199504/vuepress-blog#readme",
   "devDependencies": {
+    "markdown-it": "^11.0.1",
+    "markdown-it-katex": "^2.0.3",
     "vuepress": "^1.6.0",
     "vuepress-theme-reco": "^1.5.7"
   }

@@ -4,7 +4,10 @@ module.exports = {
 
     head: [
         ['link', { rel: 'icon', href: '/avatar.jpg' }],
-        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
+        ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
+        // markdown数学公式需要引入
+        ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
+        ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }]
     ],
 
     theme: 'reco',
@@ -63,6 +66,7 @@ module.exports = {
         // 项目开始时间
         startYear: '2020',
 
+        // 评论功能
         valineConfig: {
             appId: 'iHU7d8EHJ3f9k3DqoC7Ch0t4-gzGzoHsz',// your appId
             appKey: 'ovDmM7AHcBYCERsAVQeFCDpi', // your appKey
@@ -72,6 +76,10 @@ module.exports = {
     },
 
     markdown: {
-        lineNumbers: true
+        lineNumbers: true,
+        extendMarkdown: md => {
+            // 使用更多的 markdown-it 插件!
+            md.use(require('markdown-it-katex'))
+        }
     },
 }  
