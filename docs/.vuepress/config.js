@@ -78,6 +78,7 @@ module.exports = {
     markdown: {
         lineNumbers: true,
         extendMarkdown: md => {
+            md.set({html: true})
             // 使用更多的 markdown-it 插件!
             md.use(require('markdown-it-katex'))
         }
