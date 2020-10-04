@@ -62,7 +62,7 @@ module.exports = {
         },
 
         // 最后更新时间
-        lastUpdated: 'Last Updated',
+        lastUpdated: '上次更新时间',
         // 项目开始时间
         startYear: '2020',
 
