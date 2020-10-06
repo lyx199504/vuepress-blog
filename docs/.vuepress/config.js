@@ -28,6 +28,34 @@ module.exports = {
         sidebarDepth: 1,
         displayAllHeaders: false,
 
+        sidebar: {
+            '/views/课程笔记/': [
+                {
+                    title: '信息隐藏',
+                    collapsable: true,
+                    children: [
+                        '信息隐藏/第1讲：什么是信息隐藏？',
+                        '信息隐藏/第2讲：为什么能信息隐藏？',
+                        '信息隐藏/第3讲：什么样的隐写术是好的？',
+                    ]
+                },
+                {
+                    title: '随机过程',
+                    collapsable: true,
+                    children: [
+                        '随机过程/第1章：概率论引论',
+                    ]
+                },
+                {
+                    title: '现代密码学',
+                    collapsable: true,
+                    children: [
+                        '现代密码学/现代密码学',
+                    ]
+                },
+            ]
+        },
+
         // 搜索设置
         search: true,
         searchMaxSuggestions: 10,
@@ -78,7 +106,7 @@ module.exports = {
     markdown: {
         lineNumbers: true,
         extendMarkdown: md => {
-            md.set({html: true})
+            md.set({ html: true })
             // 使用更多的 markdown-it 插件!
             md.use(require('markdown-it-katex'))
         }
