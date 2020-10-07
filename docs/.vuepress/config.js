@@ -50,7 +50,7 @@ module.exports = {
                     title: '现代密码学',
                     collapsable: true,
                     children: [
-                        '现代密码学/现代密码学',
+                        '现代密码学/第1章：密码学基础',
                     ]
                 },
             ]
