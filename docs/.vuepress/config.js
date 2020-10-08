@@ -53,6 +53,13 @@ module.exports = {
                         '现代密码学/第1章：密码学基础',
                     ]
                 },
+                {
+                    title: '信息安全数学',
+                    collapsable: true,
+                    children: [
+                        '信息安全数学/第1章：整除',
+                    ]
+                },
             ]
         },
 
@@ -106,7 +113,7 @@ module.exports = {
     markdown: {
         lineNumbers: true,
         extendMarkdown: md => {
-            md.set({ html: true })
+            // md.set({ html: true })
             // 使用更多的 markdown-it 插件!
             md.use(require('markdown-it-katex'))
         }
