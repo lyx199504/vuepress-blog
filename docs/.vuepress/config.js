@@ -44,6 +44,7 @@ module.exports = {
                     collapsable: true,
                     children: [
                         '随机过程/第1章：概率论引论',
+                        '随机过程/第2章：随机变量',
                     ]
                 },
                 {
@@ -105,7 +106,7 @@ module.exports = {
         valineConfig: {
             appId: 'iHU7d8EHJ3f9k3DqoC7Ch0t4-gzGzoHsz',// your appId
             appKey: 'ovDmM7AHcBYCERsAVQeFCDpi', // your appKey
-            placeholder: '来发评论吧~',
+            placeholder: '不说点什么吗？',
             avatar: 'wavatar',
         },
     },
