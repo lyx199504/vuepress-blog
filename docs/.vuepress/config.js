@@ -59,6 +59,7 @@ module.exports = {
                     collapsable: true,
                     children: [
                         '信息安全数学/第1章：整除',
+                        '信息安全数学/第2章：同余',
                     ]
                 },
             ]
